@@ -67,26 +67,26 @@
             //Console.WriteLine($"{count}:Musbet ve tek olan elementlerin sayi"); 
             #endregion
             #region task4 
-            // Console.Write("Massivin uzunlugunu daxil edin:");
-            // int n=int.Parse(Console.ReadLine());
-            // int[] arr= new int[n];
-            // int count = 0;
-            // int sum = 0;
+            Console.Write("Massivin uzunlugunu daxil edin:");
+            int n = int.Parse(Console.ReadLine());
+            int[] arr = new int[n];
+            int count = 0;
+            int sum = 0;
 
-            //for (int i = 0; i < arr.Length; i++)
-            // {
-            //     Console.Write($"arr[{i}]=");
-            //     arr[i] = int.Parse(Console.ReadLine());
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.Write($"arr[{i}]=");
+                arr[i] = int.Parse(Console.ReadLine());
 
-            //     if (arr[i]%2==0 && i%2==0)
-            //     {
-            //         sum += arr[i];
-            //         count++;
+                if (arr[i] % 2 == 0 && i % 2 == 1)
+                {
+                    sum += arr[i];
+                    count++;
 
-            //     }
-            // }
-            // Console.WriteLine($"{sum}:Cut yerlerde olan cut elementlerin cemi");
-            // Console.WriteLine($"{count}:Cut yerlerde olan cut elementlerin sayi"); 
+                }
+            }
+            Console.WriteLine($"{sum}:Cut yerlerde olan cut elementlerin cemi");
+            Console.WriteLine($"{count}:Cut yerlerde olan cut elementlerin sayi");
             #endregion
             #region task5
             //Console.Write("Massivin uzunlugunu daxil edin:");
@@ -100,7 +100,7 @@
             //    Console.Write($"arr[{i}]=");
             //    arr[i]=int.Parse(Console.ReadLine());
 
-            //    if (arr[i]%2==0 && i%2!=0)
+            //    if (arr[i]%2==0 && i%2==0)
             //    {
             //        sum += arr[i];
             //        count++;
@@ -121,7 +121,7 @@
             //    Console.Write($"arr[{i}]=");
             //    arr[i] = int.Parse(Console.ReadLine());
 
-            //    if (arr[i]%2!=0 && i%2==0)
+            //    if (arr[i]%2!=0 && i%2==1)
             //    {
             //        sum += arr[i];
             //        count++;
@@ -153,7 +153,6 @@
             //Console.WriteLine("Massivin uzunlugunu daxil edin:");
             //int n = int.Parse(Console.ReadLine());
             //int[] arr = new int[n];
-            //int max = arr[0];
             //int maxIndex = 0;
 
             //for (int i = 0; i < arr.Length; i++)
@@ -164,9 +163,8 @@
 
             //for (int i = 0; i < arr.Length; i++)
             //{
-            //    if (arr[i] > max)
+            //    if (arr[i] > arr[maxIndex]
             //    {
-            //        max = arr[i];
             //        maxIndex = i;
             //    }
             //}
@@ -176,7 +174,6 @@
             //Console.WriteLine("Massivin uzunlugunu daxil edin:");
             //int n = int.Parse(Console.ReadLine());
             //int[] arr = new int[n];
-            //int min = arr[0];
             //int minIndex = 0;
 
             //for (int i = 0; i < arr.Length; i++)
@@ -184,9 +181,8 @@
             //    Console.Write($"arr[{i}]=");
             //    arr[i] = int.Parse(Console.ReadLine());
 
-            //    if (arr[i]<=min)
+            //    if (arr[i]<=arr[minIndex])
             //    {
-            //        min = arr[i];
             //        minIndex = i;
             //    }
 
