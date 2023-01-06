@@ -160,15 +160,17 @@
             //{
             //    Console.Write($"arr[{i}]=");
             //    arr[i] = int.Parse(Console.ReadLine());
+            //}
 
+            //for (int i = 0; i < arr.Length; i++)
+            //{
             //    if (arr[i] > max)
             //    {
             //        max = arr[i];
-            //        maxIndex = i + 1;
+            //        maxIndex = i;
             //    }
-
             //}
-            //Console.WriteLine($"{maxIndex}:Maksimal elementin nomresi"); 
+            //Console.WriteLine($"{maxIndex}:Maksimal elementin indeksi");
             #endregion
             #region task10
             //Console.WriteLine("Massivin uzunlugunu daxil edin:");
@@ -182,14 +184,14 @@
             //    Console.Write($"arr[{i}]=");
             //    arr[i] = int.Parse(Console.ReadLine());
 
-            //    if (arr[i]<min)
+            //    if (arr[i]<=min)
             //    {
             //        min = arr[i];
-            //        minIndex = i + 1;
+            //        minIndex = i;
             //    }
 
             //}
-            //Console.WriteLine($"{minIndex}:Minimal elementin nomresi"); 
+            //Console.WriteLine($"{minIndex}:Minimal elementin indeksi"); 
             #endregion
         }
     }
